@@ -10,7 +10,7 @@ export enum OrderStatus {
 
 export interface OrderItemType {
     id: number
-    role: customerType,
+    role: RoleType
     name: string
     status: OrderStatus
 }
